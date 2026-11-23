@@ -1,0 +1,8 @@
+missing values per column: {'finish_time_ms': 260, 'fastest_lap_rank': 44, 'avg_speed_kph': 74}
+finish time / fastest lap / speed are empty for lapped or retired cars. That is normal, so we keep them empty (NaN) instead of inventing a value
+removed 0 duplicate rows (a driver has only one result per race, a copy would count the points twice)
+converted numbers to int/float and race_date to datetime, otherwise we cannot do math or sort by date
+trimmed spaces, lowercased ids, fixed country names, grouped status: {'Finished': 870, 'Lapped': 295, 'Retired': 190, 'Disqualified': 4}
+added positions_gained, is_podium, is_dnf, finish_time_s, points_share with NumPy
+comeback drives (grid >= 10, finish top 5, not retired): 35
+groupby tables: team_season (30 rows), driver_summary (28 rows); pivot_table (12, 3) and melt back to 36 rows

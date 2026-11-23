@@ -1,0 +1,1 @@
+record_id,season,round,race_name,race_date,circuit_name,country,driver_id,given_name,family_name,driver_nationality,constructor_id,constructor_name,grid,position,position_text,points,laps,status,finish_time_ms,fastest_lap_rank,avg_speed_kph,errors

@@ -1,0 +1,5 @@
+record_id,what_we_broke,errors
+2024-1-test_a,position and points out of range,"points: in_range(0, 26); position: in_range(1, 30); row: points_only_for_top_10"
+2024-1-test_b,bad date and missing driver_id,driver_id: not_nullable; race_date: coerce_dtype('datetime64[ns]'); race_date: dtype('datetime64[ns]')
+2024-1-test_c,unknown position_text,"position_text: str_matches('^(\d{1,2}|R|D|E|W|F|N)$')"
+2024-1-test_c,grid is text and record_id repeats,grid: coerce_dtype('int64'); grid: dtype('int64'); record_id: record_id_is_unique
