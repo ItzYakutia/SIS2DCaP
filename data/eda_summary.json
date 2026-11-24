@@ -1,0 +1,74 @@
+{
+  "per_season": [
+    {
+      "season": 2022,
+      "races": 22,
+      "entries": 440,
+      "avg_points": 5.095,
+      "dnf_rate": 0.168
+    },
+    {
+      "season": 2023,
+      "races": 22,
+      "entries": 440,
+      "avg_points": 5.095,
+      "dnf_rate": 0.15
+    },
+    {
+      "season": 2024,
+      "races": 24,
+      "entries": 479,
+      "avg_points": 5.1,
+      "dnf_rate": 0.113
+    }
+  ],
+  "q1_spearman": 0.729,
+  "q1_median_finish": {
+    "1-3": 2.0,
+    "4-6": 5.0,
+    "7-10": 8.0,
+    "11-15": 12.0,
+    "16+": 14.0
+  },
+  "q2_best_team_each_season": {
+    "2022": "Red Bull",
+    "2023": "Red Bull",
+    "2024": "McLaren"
+  },
+  "q2_top3_total": {
+    "Red Bull": 2051.0,
+    "Ferrari": 1477.0,
+    "Mercedes": 1302.0
+  },
+  "q3_avg_dnf_pct": 14.28,
+  "q3_highest_dnf": {
+    "Williams": 0.244,
+    "Alfa Romeo": 0.193,
+    "Alpine F1 Team": 0.176
+  },
+  "q3_lowest_dnf": {
+    "Red Bull": 0.096,
+    "Sauber": 0.083,
+    "McLaren": 0.066
+  },
+  "q4_gained_by_season": [
+    {
+      "season": 2022,
+      "mean": -0.1,
+      "median": 1.0,
+      "std": 5.6
+    },
+    {
+      "season": 2023,
+      "mean": -0.02,
+      "median": 0.0,
+      "std": 5.26
+    },
+    {
+      "season": 2024,
+      "mean": -0.01,
+      "median": 0.0,
+      "std": 4.21
+    }
+  ]
+}

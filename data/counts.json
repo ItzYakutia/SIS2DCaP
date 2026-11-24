@@ -1,0 +1,44 @@
+{
+  "collect": {
+    "records": 1359,
+    "requests": 15,
+    "seasons": [
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "produce": {
+    "published": 1359,
+    "failed": 0,
+    "first_offset": 5438,
+    "topic": "f1-race-results"
+  },
+  "consume": {
+    "consumed": 1359,
+    "broken": 0,
+    "stopped_by_end_marker": true
+  },
+  "validate": {
+    "received": 1359,
+    "valid": 1359,
+    "invalid": 0,
+    "test_rows": 4,
+    "test_rows_caught": 4
+  },
+  "clean": {
+    "rows_in": 1359,
+    "rows_out": 1359
+  },
+  "load": {
+    "cleaned_rows": 1359,
+    "first_load_added": 1359,
+    "second_load_added": 0,
+    "stored": 1359,
+    "idempotent": true
+  },
+  "analyze": {
+    "rows": 1359,
+    "charts": 4
+  }
+}
